@@ -1,0 +1,45 @@
+# Local database and environment configuration
+config/database.local.php
+*.local.php
+.env
+.env.*
+!.env.example
+
+# IDE and Editor configurations
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.sublime-project
+*.sublime-workspace
+
+# Operating System files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+[Dd]esktop.ini
+
+# Web server and PHP logs
+*.log
+logs/
+error_log
+access_log
+
+# Temporary, cache, and backup files
+*.bak
+*.tmp
+*.temp
+*~
+.cache/
+
+# Database dumps containing private/runtime data
+*.sql.gz
+database/exports/
+database/backups/
